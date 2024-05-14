@@ -11,6 +11,6 @@ pip install SpeechRecognition
 pip install pyaudio
 pip install opencv-python
 pip list
-pip freeze > requirements.txt
 pip install -r requirements.txt
+pip freeze > requirements.txt
 doskey /history >> history.txt

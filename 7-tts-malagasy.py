@@ -1,7 +1,9 @@
+# Reference : https://huggingface.co/facebook/mms-tts-mlg
+# pip install --upgrade transformers accelerate
+
 from transformers import VitsModel, AutoTokenizer
 import torch
 import scipy
-
 
 model = VitsModel.from_pretrained("facebook/mms-tts-mlg")
 tokenizer = AutoTokenizer.from_pretrained("facebook/mms-tts-mlg")
