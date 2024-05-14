@@ -1,0 +1,16 @@
+pip install virtualenv
+python.exe -m venv venv
+.\venv\Scripts\activate.bat
+pip install requests
+pip install bs4
+pip install speedtest-cli
+speedtest-cli
+pip install pytesseract
+pip install pywin32
+pip install SpeechRecognition
+pip install pyaudio
+pip install opencv-python
+pip list
+pip freeze > requirements.txt
+pip install -r requirements.txt
+doskey /history >> history.txt
